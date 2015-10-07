@@ -92,7 +92,7 @@ void tap_handler(AccelAxisType axis, int32_t direction) {
 void window_load(Window *window)
 {
 //Load fonts
-ResHandle date_font_handle = resource_get_handle(RESOURCE_ID_CICLE_GORDITA_30);
+ResHandle date_font_handle = resource_get_handle(RESOURCE_ID_CICLE_GORDITA_27);
 ResHandle time_font_handle = resource_get_handle(RESOURCE_ID_CICLE_GORDITA_55);
 ResHandle sec_font_handle = resource_get_handle(RESOURCE_ID_CICLE_FINA_50);
 ResHandle bat_font_handle = resource_get_handle(RESOURCE_ID_CICLE_FINA_18);
